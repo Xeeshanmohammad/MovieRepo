@@ -1,6 +1,8 @@
-import React, { useEffect, useState } from "react"
-import "react-responsive-carousel/lib/styles/carousel.min.css";
-import Cards from "../../compnents/card/Card";
+// import React, { useEffect, useState } from "react"
+import { useEffect, useState } from "react"
+import Card from "../../compnents/Card"
+import Header from "../../compnents/Header"
+
 
 const Home = () => {
 
@@ -14,11 +16,14 @@ const Home = () => {
 
     return (
        
-            <div> 
-               
-            </div>
-       
+        <div>
+            <Header/>
+        <div className="homeContainer">
+            <Card/>
+        </div>
+           </div>       
     )
 }
 
 export default Home
+

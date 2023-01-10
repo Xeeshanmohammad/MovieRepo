@@ -1,0 +1,30 @@
+.container{
+    width: 100%;
+    justify-content: space-between;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.movie-title{
+    padding: 40px;
+    width: 100%;
+    border: none;
+    display: flex;
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+.fpRating>button{
+    background-color: blue;
+    color: white;
+    border: none;
+    margin-left: 10px;
+    padding: 3px;
+    font-weight: bold;
+}
+.fpRating>span{
+    font-size: 14px;
+     margin-left: 80px;
+}
